@@ -6,7 +6,7 @@ from scipy.signal import find_peaks
 from datetime import datetime, timedelta
 
 # ── CONFIG ─────────────────────────────────────────────────────────────────────
-CSV_FILE  = r"CODES\breathingPatternAnalysis\DATA\sensor_log7.csv"  # change to your CSV path (use r"..." on Windows)
+CSV_FILE  = r"breathingPatternAnalysis\DATA\sensor_log2.csv"  # change to your CSV path (use r"..." on Windows)
 DISTANCE  = 10                  # min samples between peaks  (~1 s at 10 Hz)
 PROMINENCE = 20                 # min prominence in ADC units (raise to be stricter)
 # ───────────────────────────────────────────────────────────────────────────────

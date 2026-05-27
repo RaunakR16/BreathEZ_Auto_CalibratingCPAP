@@ -6,7 +6,7 @@ from scipy.signal import find_peaks, peak_prominences
 from datetime import datetime
 
 # ── CONFIG ─────────────────────────────────────────────────────────────────────
-CSV_FILE = r"CODES\breathingPatternAnalysis\DATA\sensor_log8.csv"   # change to your file path (use r"..." on Windows)
+CSV_FILE = r"breathingPatternAnalysis\DATA\sensor_log1.csv"   # change to your file path (use r"..." on Windows)
 
 # Baseline removal
 # A large moving-average window (~10 s worth of samples) captures slow drift
